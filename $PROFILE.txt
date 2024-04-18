@@ -3,3 +3,4 @@ Import-Module Terminal-Icons
 Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -EditMode Windows
+$env:VIRTUAL_ENV_DISABLE_PROMPT = 1
