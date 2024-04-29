@@ -29,7 +29,17 @@
           "template": " {{ if .WSL }}\ue712 on {{ end }}{{ .Icon }} ",
           "type": "os"
         },
-
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "display_mode": "context"
+          },
+          "foreground": "#011627",
+          "background": "#FFDE57",
+          "template": " \ue73c {{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }} "
+        },
         {
           "background": "#00C7FC",
           "foreground": "#011627",
