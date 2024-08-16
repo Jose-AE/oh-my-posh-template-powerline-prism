@@ -74,8 +74,9 @@
           "type": "git"
         },
         {
+          "type": "python",
           "background": "#FFDE57",
-          "foreground": "#111111",
+          "foreground": "#011627",
           "powerline_symbol": "\ue0b0",
           "properties": {
               "display_mode": "environment",
@@ -83,8 +84,8 @@
               "home_enabled": true
           },
           "style": "powerline",
-          "template": " \ue235 {{ if .Venv }}({{ .Venv }}){{ end }} ",
-          "type": "python"
+          "template": " \ue73c {{ if .Venv }}({{ .Venv }}){{ end }} "
+          
       }
 
       ],
