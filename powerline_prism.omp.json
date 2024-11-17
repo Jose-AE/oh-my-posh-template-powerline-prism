@@ -32,7 +32,7 @@
                         "mint": "\uf30f",
                         "opensuse": "\uf314",
                         "raspbian": "\uf315",
-                        "ubuntu": "\uef72",
+                        "ubuntu": "\uebc9",
                         "windows": "\ue70f"
                     },
                     "template": " {{ .Icon }} ",
