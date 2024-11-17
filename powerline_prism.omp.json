@@ -58,7 +58,7 @@
                         "home_icon": "~",
                         "style": "full"
                     },
-                    "template": " \uf07c {{ .Path }} ",
+                    "template": " \ue5ff {{ .Path }} ",
                     "foreground": "#e4e4e4",
                     "powerline_symbol": "\ue0b0",
                     "background": "#3465a4",
