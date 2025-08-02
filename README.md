@@ -12,7 +12,12 @@
 
 ![IMG](https://i.imgur.com/w0hhmoy.png)
 
-[Link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CascadiaCode.zip)
+[Download](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CascadiaCode.zip)
 
 
----
+## WSL Instalation
+
+Run the following command to install **Oh My Posh**, download the **Powerline Prism** theme, and configure your shell:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/Jose-AE/oh-my-posh-template-powerline-prism/main//install-wsl.sh | bash
