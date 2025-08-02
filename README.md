@@ -20,4 +20,12 @@
 Run the following command to install **Oh My Posh**, download the **Powerline Prism** theme, and configure your shell:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Jose-AE/oh-my-posh-template-powerline-prism/main//install-wsl.sh | bash
+curl -sSL https://raw.githubusercontent.com/Jose-AE/oh-my-posh-template-powerline-prism/main/install-wsl.sh | bash
+```
+## Windows
+Run the following command in Powershell to install **Oh My Posh**, download the **Powerline Prism** theme, and configure your shell:
+
+```ps
+Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Jose-AE/oh-my-posh-template-powerline-prism/main/install-win.ps1").Content
+
+```

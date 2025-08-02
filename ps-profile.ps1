@@ -2,7 +2,6 @@
 
 
 
-
 # Your profile contents...
 #Set-PSDebug -Trace 1
 # oh-my-posh init pwsh --config 'C:\Users\josel\.oh-my-posh\powerline_prism.omp.json' | Invoke-Expression
